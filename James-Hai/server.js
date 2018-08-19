@@ -10,7 +10,7 @@ const app = express();
 // const conString = 'postgres://sgtbelly:123456@localhost:5432/jameshai';
 
 // Hai's Mac
-const conString = 'postgres://localhost:5432/lab_09_test';
+const conString = 'postgres://localhost:5432/lab_09';
 
 const client = new pg.Client(conString);
 client.connect();
